@@ -68,25 +68,49 @@ service
                 <div class="row">
                     <div class="col-md-6">
                         <div class="form-group ct-u-marginBottom30">
-                            <input type="text" class="form-control" id="firstName" required name="field[]" placeholder="First Name">
-                            <label for="firstName">First Name</label>
+                            <input type="text" class="form-control" id="firstName" required name="field[]" placeholder="NOMBRE COMPLETO ">
+                            <label for="firstName">NOMBRE COMPLETO</label>
                         </div>
 
                         <div class="form-group ct-u-marginBottom30">
-                            <input type="text" class="form-control" id="adress" required name="field[]" placeholder="Adress">
-                            <label for="adress">Adress</label>
+                            <input type="text" class="form-control" id="adress" required name="field[]" placeholder="NUMERO DE CELULAR ">
+                            <label for="adress">NUMERO DE CELULAR </label>
                         </div>
+                        <div class="form-group ct-u-marginBottom30">
+                            <input type="text" class="form-control" id="adress" required name="field[]" placeholder="TIPO">
+                            <label for="adress">TIPO</label>
+                        </div>
+                        
                     </div>
+                    
                     <div class="col-md-6">
                         <div class="form-group ct-u-marginBottom30">
-                            <input type="text" class="form-control" id="lastName" required name="field[]" placeholder="Last Name">
-                            <label for="lastName">Last Name</label>
+                            <input type="text" class="form-control" id="lastName" required name="field[]" placeholder="FECHA DE NACIMIENTO">
+                            <label for="lastName">FECHA DE NACIMIENTO</label>
                         </div>
 
                         <div class="form-group ct-u-marginBottom30">
-                            <input type="email" class="form-control" id="email" required name="field[]" placeholder="E-mail">
-                            <label for="email">E-mail</label>
+                            <input type="email" class="form-control" id="email" required name="field[]" placeholder="DOCUMENTO">
+                            <label for="text">DOCUMENTO</label>
                         </div>
+                        <div class="form-group ct-u-marginBottom30">
+                            <select class="form-control" id="gender" required name="field[]">
+                            <option value="" disabled selected>Selecciona tu género</option>
+                            <option value="masculino">Masculino</option>
+                            <option value="femenino">Femenino</option>
+                            <option value="otros">Otros</option>
+                             </select>
+                            <label for="gender">Género</label>
+                        </div>
+                        <div class="form-group ct-u-marginBottom30">
+                        <select class="form-control" id="gender" required name="field[]">
+                            <option value="" disabled selected>Selecciona tu NIVEL</option>
+                            <option value="masculino">BASICO</option>
+                            <option value="femenino">INSTRUCTOR</option>
+                            <option value="otros">INTERMEDIO</option>
+                        </select>
+                        <label for="gender">NIVEL</label>
+
                     </div>
                 </div>
 

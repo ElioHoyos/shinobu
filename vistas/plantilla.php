@@ -19,6 +19,7 @@ $ruta = ControladorRuta::ctrRuta();
     <link rel="apple-touch-icon" href="vistas/img/favicon.png">
 
     <title>Shinobu Academy</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-...tu-codigo-de-integridad..." crossorigin="anonymous" />
 
     <link rel="stylesheet" type="text/css" href="vistas/css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="vistas/css/style.css">
@@ -163,7 +164,7 @@ if(isset($_GET["pagina"])){
  ?>
 </div>
 
-<a href="#" class="ct-js-btnScrollUp"><span><i class="fa fa-angle-up"></i></span></a>
+<a href="#" class="ct-js-btnScrollUp"><span><i class="fas fa-angle-up"></i></span></a>
 
 <!-- JavaScripts -->
 
