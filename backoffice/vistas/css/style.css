@@ -1,0 +1,101 @@
+/*=============================================
+Color personalizado
+=============================================*/
+.bg-purple, .btn-purple{
+	background-color: #727cb6;
+	color:white;
+}
+
+.card-purple{
+	border-top: 3px solid #727cb6;
+}
+
+.text-purple{
+	color:#727cb6;
+}
+
+
+/*=============================================
+Deslizador de videos
+=============================================*/
+
+.slide-area li a figure{
+	position: relative;
+}
+
+.slide-area li a figure.activado::before{
+	position:absolute;
+	content: "\f144";
+	font-family: "Font Awesome 5 Free";
+	font-size:2em;
+	color:white;
+	text-align:center;
+	width: 46px;
+	line-height: 46px;
+	background: rgba(0,0,0,.7);
+	top:50%;
+	margin-top: -23px;
+	left:50%;
+	margin-left: -23px;
+	border-radius:100%;
+	z-index:1;
+}
+
+.slide-area li a figure.desactivado::before{
+	position:absolute;
+	content: "Activar suscripción";
+	font-size:18px;
+	color:white;
+	text-align:center;
+	width: 200px;
+	line-height: 70px;
+	background: rgba(0,0,0,.7);
+	top:50%;
+	margin-top: -35px;
+	left:50%;
+	margin-left: -100px;
+	border-radius:10px;
+	z-index:1;
+}
+
+
+.slide-area li a figure.activado img{
+	opacity:1;
+}
+
+.slide-area li a figure.desactivado img{
+	opacity:.5;
+}
+
+/*=============================================
+Formulario suscripción
+=============================================*/
+input[type="checkbox"]{
+	display:none;
+}
+
+label[for="aceptarTerminos"] span{
+	display:inline-block;
+	width:20px;
+	height:20px;
+	background:#E9ECEF;
+	vertical-align:middle;
+	border-radius:100%;
+	margin-right: 5px;
+	border:1px solid #aaa;
+	cursor:pointer;
+}
+
+input[type="checkbox"]:checked + label[for="aceptarTerminos"] span{
+	background:url(../img/plantilla/check.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	border:1px solid #fff;
+
+}
+
+#signatureparent{
+	width:300px; 
+	border-bottom:2px solid #333;
+}
