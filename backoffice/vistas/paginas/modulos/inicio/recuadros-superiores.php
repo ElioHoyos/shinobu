@@ -1,8 +1,8 @@
 <div class="row">
 
-	<div class="col-12 col-sm-6 col-lg-3">
+	<!-- <div class="col-12 col-sm-6 col-lg-3">
 
-		<!-- small box -->
+		
 		<div class="small-box bg-info">
 			<div class="inner">
 				<h3>$ 150</h3>
@@ -14,7 +14,7 @@
 			</div>
 			<a href="ingresos-uninivel" class="small-box-footer">Más información <i class="fas fa-arrow-circle-right"></i></a>
 		</div>
-	</div>
+	</div> -->
 	<!-- ./col -->
 
 	<!-- <div class="col-12 col-sm-6 col-lg-3">
@@ -33,8 +33,8 @@
 	</div> -->
 	<!-- ./col -->
 
-	<div class="col-12 col-sm-6 col-lg-3">
-		<!-- small box -->
+	<!-- <div class="col-12 col-sm-6 col-lg-3">
+		
 		<div class="small-box bg-primary">
 			<div class="inner">
 				<h3>4</h3>
@@ -46,7 +46,7 @@
 			</div>
 			<a href="soporte" class="small-box-footer">Más información <i class="fas fa-arrow-circle-right"></i></a>
 		</div>
-	</div>
+	</div> -->
 	<!-- ./col -->
 
 	<div class="col-12 col-sm-6 col-lg-3">

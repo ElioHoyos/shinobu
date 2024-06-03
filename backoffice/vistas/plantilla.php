@@ -152,9 +152,10 @@ if(isset($_GET["pagina"])){
 	if( $_GET["pagina"] == "inicio" ||
 		$_GET["pagina"] == "perfil" ||
 		$_GET["pagina"] == "usuarios" ||
-		$_GET["pagina"] == "uninivel" ||
-		$_GET["pagina"] == "binaria" ||
+		$_GET["pagina"] == "noticias" ||
+		$_GET["pagina"] == "galerias" ||
 		$_GET["pagina"] == "matriz" ||
+		$_GET["pagina"] == "intructores" ||
 		$_GET["pagina"] == "ingresos-uninivel" ||
 		$_GET["pagina"] == "ingresos-binaria" ||
 		$_GET["pagina"] == "ingresos-matriz" ||

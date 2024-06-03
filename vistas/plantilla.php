@@ -32,7 +32,7 @@ $ruta = ControladorRuta::ctrRuta();
 <body class="cssAnimate ct-onepage">
 
 
-<div class="ct-menuMobile">
+<!-- <div class="ct-menuMobile">
     <ul class="ct-menuMobile-navbar">
         <li class="onepage"><a href="#home">Home</a></li>
         <li class="onepage"><a href="#testimonials">Testimonials</a></li>
@@ -43,9 +43,9 @@ $ruta = ControladorRuta::ctrRuta();
         <li class="onepage"><a href="#gallery">Gallery</a></li>
         <li class="onepage"><a href="#map">Map</a></li>
     </ul>
-</div>
+</div> -->
 
-<div class="navbar-block navbar-right toggleButton">
+<!-- <div class="navbar-block navbar-right toggleButton">
     <div class="navbar-block-inner">
         <div id="nav-icon" class="nav-icon--right">
             <span></span>
@@ -54,7 +54,7 @@ $ruta = ControladorRuta::ctrRuta();
             <span></span>
         </div>
     </div>
-</div>
+</div> -->
 
 
 <div id="ct-js-wrapper" class="ct-pageWrapper">

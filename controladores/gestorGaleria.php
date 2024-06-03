@@ -18,7 +18,7 @@ class Galeria{
                     <div class="ct-hoverButton">
                       <img src="vistas/img/eyeButton.png" alt="img" onclick="showFullScreen(this)"/>
                     </div>
-                    <p>Cardio &amp; Gym Area</p>
+                    <p>ACADEMY SHINOBU</p>
                   </div>
                 </div>
               </figcaption>

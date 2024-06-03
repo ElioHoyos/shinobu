@@ -1,7 +1,8 @@
 <aside class="main-sidebar sidebar-dark-primary elevation-4">
   <!-- Brand Logo -->
   <a href="inicio" class="brand-link">
-  <img src="vistas/img/plantilla/shinobo1.jpg" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
+    <img src="vistas/img/plantilla/shinobo1.jpg" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
+      style="opacity: .8">
     <span class="brand-text font-weight-light">Academy Shinobu</span>
   </a>
 
@@ -10,16 +11,16 @@
     <!-- Sidebar user panel (optional) -->
     <div class="user-panel mt-3 pb-3 mb-3 d-flex">
       <div class="image">
-     
-      <?php if ($usuario["foto"] == ""): ?>
 
-         <img src="vistas/img/usuarios/default/shinobo1.jpg" class="img-circle elevation-2" alt="User Image">
+        <?php if ($usuario["foto"] == ""): ?>
 
-      <?php else: ?>
+          <img src="vistas/img/usuarios/default/shinobo1.jpg" class="img-circle elevation-2" alt="User Image">
 
-        <img src="<?php echo $usuario["foto"] ?>" class="img-circle elevation-2" alt="User Image">
-        
-      <?php endif ?>
+        <?php else: ?>
+
+          <img src="<?php echo $usuario["foto"] ?>" class="img-circle elevation-2" alt="User Image">
+
+        <?php endif ?>
 
       </div>
       <div class="info">
@@ -54,10 +55,10 @@
               <p>Usuarios</p>
             </a>
           </li>
-          
+
         <?php endif ?>
 
-      
+
 
         <!-- <li class="nav-item has-treeview">
           <a href="#" class="nav-link">
@@ -105,13 +106,13 @@
           </a>
           <ul class="nav nav-treeview">
             <li class="nav-item">
-              <a href="uninivel" class="nav-link">
+              <a href="noticias" class="nav-link">
                 <i class="far fa-circle nav-icon"></i>
                 <p>Articulos</p>
               </a>
             </li>
             <li class="nav-item">
-              <a href="binaria" class="nav-link">
+              <a href="galerias" class="nav-link">
                 <i class="far fa-circle nav-icon"></i>
                 <p>Galería</p>
               </a>
@@ -122,10 +123,16 @@
                 <p>Slider</p>
               </a>
             </li>
+            <li class="nav-item">
+              <a href="intructores" class="nav-link">
+                <i class="far fa-circle nav-icon"></i>
+                <p>Instructores</p>
+              </a>
+            </li>
           </ul>
         </li>
 
-         <!-- <li class="nav-item has-treeview">
+        <!-- <li class="nav-item has-treeview">
           <a href="#" class="nav-link">
             <i class="nav-icon fas fa-money-check-alt"></i>
             <p>
@@ -166,6 +173,13 @@
           <a href="soporte" class="nav-link">
             <i class="nav-icon fas fa-comments"></i>
             <p>Soporte</p>
+          </a>
+        </li>
+
+        <li class="nav-item" style="background-color: blue;">
+          <a href="../index.php" target="_blank" class="nav-link">
+            <i class="far fa-eye"></i>
+            <p>Ver Sitio Web</p>
           </a>
         </li>
 

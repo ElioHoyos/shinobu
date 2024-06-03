@@ -12,11 +12,11 @@
 
                     <div class="d-flex justify-content-between">
                     
-                        <h4>Ingreso al sistema</h4>
+                        <h4>INTRANET Shinobu</h4>
 
                         <div class="dropdown text-right">
 
-                            <button type="button" class="btn btn-light btn-sm dropdown-toggle pr-3" data-toggle="dropdown">
+                            <!-- <button type="button" class="btn btn-light btn-sm dropdown-toggle pr-3" data-toggle="dropdown">
                                 <form method="post" action="<?php echo "http://" . $_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"]; ?>">
                                     
                                     <input type="hidden" name="idioma" value="es">
@@ -30,9 +30,9 @@
 
 
                                 </form>
-                            </button>
+                            </button> -->
 
-                            <div class="dropdown-menu">
+                            <!-- <div class="dropdown-menu">
 
                                 <a class="dropdown-item">
                                     
@@ -51,7 +51,7 @@
 
                                 </a>
 
-                            </div>
+                            </div> -->
 
                         </div>
 
@@ -74,9 +74,9 @@
 
                         <input type="submit" class="form-control__n my-3 py-3 btn btn-info btn-block" value="Ingresar">
 
-                        <p class="text-center pt-1">¿Aún no tienes una cuenta? | <a href="<?php echo $ruta; ?>registro" style="color: red;">Regístrate</a></p>
+                        <!-- <p class="text-center pt-1">¿Aún no tienes una cuenta? | <a href="<?php echo $ruta; ?>registro" style="color: red;">Regístrate</a></p> -->
 
-                        <p class="text-center pt-1"><a href="#modalRecuperarPassword" data-toggle="modal" data-dismiss="modal">¿Olvidó su contraseña?</a></p>
+                        <p class="text-center pt-1" style="background-color: black;"><a href="#modalRecuperarPassword" data-toggle="modal" data-dismiss="modal">¿Olvidó su contraseña?</a></p>
 
                     </form>
 
@@ -97,7 +97,7 @@
                         <a href="#" target="_blank"><i class="fab fa-instagram lead text-white mx-4"></i></a>
                     </li>   
 
-                    
+<!--                     
                     <li>
                         <a href="#" target="_blank"><i class="fab fa-linkedin lead text-white mx-4"></i></a>
                     </li>
@@ -108,7 +108,7 @@
 
                     <li>
                         <a href="#" target="_blank"><i class="fab fa-youtube lead text-white mx-4"></i></a>
-                    </li>
+                    </li> -->
 
                 </ul>
 

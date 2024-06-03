@@ -35,21 +35,21 @@
         </div>
 
         <ul class="nav navbar-nav ct-navbar--fadeIn navbar-right">
-            <li class="onepage active"><a href="#home">Home</a></li>
-            <li class="onepage"><a href="#testimonials">Testimonials</a></li>
+            <li class="onepage active"><a href="#home">Inicio</a></li>
+            <li class="onepage"><a href="#testimonials">Instructores</a></li>
             <li class="onepage"><a href="#trainers">Trainers</a></li>
-            <li class="onepage"><a href="#calendars">Calendar</a></li>
+            <!-- <li class="onepage"><a href="#calendars">Calendar</a></li> -->
             <li class="onepage"><a href="#callToAction">Call To Action</a></li>
-            <li class="onepage"><a href="#services">Contact</a></li>
-            <li class="onepage"><a href="#gallery">Gallery</a></li>
+            <li class="onepage"><a href="#services">Contáctenos</a></li>
+            <li class="onepage"><a href="#gallery">Galleria</a></li>
            				
         </ul>
     </div>
      <!-- INGRESO -->		
      <button class="btn btn-danger btn-sm position-absolute top-0 end-0 m-3 d-flex custom-button">
-          <a href="<?php echo $ruta; ?>ingreso" class="text-white">Ingresar</a>
-          <span class="text-white mx-2">|</span>
-         <a href="<?php echo $ruta; ?>registro" class="text-white">Crear Cuenta</a>
+          <a href="<?php echo $ruta; ?>ingreso" target="_blank" class="text-white">IntraNet</a>
+          <!-- <span class="text-white mx-2">|</span>
+         <a href="<?php echo $ruta; ?>registro" class="text-white">Crear Cuenta</a> -->
     </button>
 </nav>
 

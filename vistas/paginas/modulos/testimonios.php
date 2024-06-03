@@ -17,7 +17,7 @@ GALERIA
         </div>
     </div>
 
-    <div class="container">
+    <!-- <div class="container">
         <div class="ct-portfolio-filters">
             <ul class="ct-portfolio-filters-list list-unstyled list-inline">
                 <li>
@@ -40,7 +40,7 @@ GALERIA
                 </li>
             </ul>
         </div>
-    </div>
+    </div> -->
 
 
     <div class="container-fluid">

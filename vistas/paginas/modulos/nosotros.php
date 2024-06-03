@@ -9,7 +9,7 @@ entrenador
         </div>
 
         <div class="ct-headerBox-body">
-            <h3><span>IF YOU WANT TO BE THE BEST</span> <small><span>YOU GOTTA LEARN FROM THE BEST</span></small></h3>
+            <h3><span>INTRUCTORES </span> <small><span>ACADEMY SHINOBO</span></small></h3>
         </div>
     </div>
 </div>
@@ -83,7 +83,7 @@ entrenador
                     </div>
                 </div>
             </div>
-            <div class="item" data-for="none">
+            <!-- <div class="item" data-for="none">
                 <div class="item-inner">
                     <figure>
                         <div class="ct-sliderTab-join" data-toggle="modal" data-target="#modal1">
@@ -99,7 +99,7 @@ entrenador
                         <a href="#" class="btn ct-btn--o btn-default" data-toggle="modal" data-target="#modal1"><span>join us</span></a>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </section>
     </div>
 

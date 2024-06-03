@@ -27,7 +27,7 @@ ARTÍCULOS ADMINISTRABLE 1
 
 <div id="seccionArticulos" class="col-lg-10 col-md-10 col-sm-9 col-xs-12">
 	
-	<button id="btnAgregarArticulo" class="btn btn-info btn-lg">Agregar Artículo 1</button>
+	<button id="btnAgregarArticulo" class="btn btn-info btn-lg">Registrar una noticia a la Página Shinobu</button>
 
 	<!--==== AGREGAR ARTÍCULO  ====-->
 
