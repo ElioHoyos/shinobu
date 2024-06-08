@@ -36,93 +36,84 @@ service
                 <strong>Danger!</strong> You did something wrong
             </div>
 
-
-            <form data-email-subject="Form Subject" class="validateIt" role="form" action="assets/form/send.php" method="POST">
-                <div class="row ct-u-marginBottom30">
-                    <div class="col-md-6">
-                        <div class="ct-form-header ct-u-marginBottom30">
-                            <img src="vistas/img/demo-content/formLogo.png" alt="">
-                            <h2><span>SHINOBU</span></h2>
-
-                            <p>
-                                Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="ct-contactInfo ct-u-marginBottom30">
-
-                            <ul class="list-unstyled">
-                                <li>
-                                    <i class="fa fa-mobile"></i> <a href="tel:913 593 204">913 593 204</a>
-                                </li>
-
-                                <li>
-                                    <i class="fa fa-envelope-o"></i> <a href="https://www.google.com/maps/dir/?api=1&destination=-8.37612764536%2C-74.55782&fbclid=IwZXh0bgNhZW0CMTAAAR23kF6ruyVOjfsHw-rhiur2w9WrvNDB0RErA9RSPRKyKX479zJLlTxnRIk_aem_AZXhmpmWSvb9i-BqdCYltBuZaamyq8VhbAJSuxoefYJmExX2NqACIkwWHngQTwSeI1wnfgzscQqc03Y3eJEGeevL" target="_blank"> Jr. Antunes de mayolo </a> /<a href="https://www.google.com/maps/dir/?api=1&destination=-8.37612764536%2C-74.55782&fbclid=IwZXh0bgNhZW0CMTAAAR23kF6ruyVOjfsHw-rhiur2w9WrvNDB0RErA9RSPRKyKX479zJLlTxnRIk_aem_AZXhmpmWSvb9i-BqdCYltBuZaamyq8VhbAJSuxoefYJmExX2NqACIkwWHngQTwSeI1wnfgzscQqc03Y3eJEGeevL" target="_blank">Av. eglinton , Pucallpa, Peru</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
+    <!-- FORMULARIO -->  
+        <div id="formulario">
+        <form action="modelos/guardar.php" method="post" onsubmit="return validateAndFormatDate();">
+        <div class="row ct-u-marginBottom30">
+            <div class="col-md-6">
+                <div class="ct-form-header ct-u-marginBottom30">
+                    <img src="vistas/img/demo-content/formLogo.png" alt="">
+                    <h2><span>SHINOBU</span></h2>
+                    <p>
+                        Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi
+                    </p>
                 </div>
+            </div>
+            <div class="col-md-6">
+                <div class="ct-contactInfo ct-u-marginBottom30">
+                    <ul class="list-unstyled">
+                        <li>
+                            <i class="fa fa-mobile"></i> <a href="tel:913 593 204">913 593 204</a>
+                        </li>
+                        <li>
+                            <i class="fa fa-envelope-o"></i> <a href="https://www.google.com/maps/dir/?api=1&destination=-8.37612764536%2C-74.55782&fbclid=IwZXh0bgNhZW0CMTAAAR23kF6ruyVOjfsHw-rhiur2w9WrvNDB0RErA9RSPRKyKX479zJLlTxnRIk_aem_AZXhmpmWSvb9i-BqdCYltBuZaamyq8VhbAJSuxoefYJmExX2NqACIkwWHngQTwSeI1wnfgzscQqc03Y3eJEGeevL" target="_blank"> Jr. Antunes de mayolo </a> /<a href="https://www.google.com/maps/dir/?api=1&destination=-8.37612764536%2C-74.55782&fbclid=IwZXh0bgNhZW0CMTAAAR23kF6ruyVOjfsHw-rhiur2w9WrvNDB0RErA9RSPRKyKX479zJLlTxnRIk_aem_AZXhmpmWSvb9i-BqdCYltBuZaamyq8VhbAJSuxoefYJmExX2NqACIkwWHngQTwSeI1wnfgzscQqc03Y3eJEGeevL" target="_blank">Av. eglinton , Pucallpa, Peru</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
 
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="form-group ct-u-marginBottom30">
-                            <input type="text" class="form-control" id="firstName" required name="field[]" placeholder="NOMBRE COMPLETO ">
-                            <label for="firstName">NOMBRE COMPLETO</label>
-                        </div>
-
-                        <div class="form-group ct-u-marginBottom30">
-                            <input type="text" class="form-control" id="adress" required name="field[]" placeholder="NUMERO DE CELULAR ">
-                            <label for="adress">NUMERO DE CELULAR </label>
-                        </div>
-                        <div class="form-group ct-u-marginBottom30">
-                            <input type="text" class="form-control" id="adress" required name="field[]" placeholder="TIPO">
-                            <label for="adress">TIPO</label>
-                        </div>
-                        
-                    </div>
-                    
-                    <div class="col-md-6">
-                        <div class="form-group ct-u-marginBottom30">
-                            <input type="text" class="form-control" id="lastName" required name="field[]" placeholder="FECHA DE NACIMIENTO">
-                            <label for="lastName">FECHA DE NACIMIENTO</label>
-                        </div>
-
-                        <div class="form-group ct-u-marginBottom30">
-                            <input type="email" class="form-control" id="email" required name="field[]" placeholder="DOCUMENTO">
-                            <label for="text">DOCUMENTO</label>
-                        </div>
-                        <div class="form-group ct-u-marginBottom30">
-                            <select class="form-control" id="gender" required name="field[]">
-                            <option value="" disabled selected>Selecciona tu género</option>
-                            <option value="masculino">Masculino</option>
-                            <option value="femenino">Femenino</option>
-                            <option value="otros">Otros</option>
-                             </select>
-                            <label for="gender">Género</label>
-                        </div>
-                        <div class="form-group ct-u-marginBottom30">
-                        <select class="form-control" id="gender" required name="field[]">
-                            <option value="" disabled selected>Selecciona tu NIVEL</option>
-                            <option value="masculino">BASICO</option>
-                            <option value="femenino">INSTRUCTOR</option>
-                            <option value="otros">INTERMEDIO</option>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group ct-u-marginBottom30">
+                    <input type="text" class="form-control" name="nombres" required placeholder="NOMBRE COMPLETO">
+                    <label for="firstName">NOMBRE y APELLIDO COMPLETO</label>
+                </div>
+                <div class="form-group ct-u-marginBottom30">
+                    <input type="number" class="form-control" name="telefono" required placeholder="NUMERO DE CELULAR">
+                    <label for="adress">NUMERO DE CELULAR</label>
+                </div>
+                <div class="form-group ct-u-marginBottom30">
+                    <input type="email" class="form-control" name="tipo" required placeholder="TIPO">
+                    <label for="adress">EMAIL</label>
+                </div>                    
+            </div>            
+            <div class="col-md-6">
+                <div class="form-group ct-u-marginBottom30">
+                    <input type="text" class="form-control" name="fechaNac" required placeholder="FECHA DE NACIMIENTO (DD-MM-AAAA)">
+                    <label for="lastName">FECHA DE NACIMIENTO</label>
+                </div>
+                <div class="form-group ct-u-marginBottom30">
+                    <input type="text" class="form-control" name="Documento" required placeholder="DOCUMENTO">
+                    <label for="text">DOCUMENTO</label>
+                </div>
+                <div class="ct-u-marginBottom30">
+                <select class="form-control" name="genero"  required >
+                            <option value=""  disabled selected class="text-white">GÉNERO</option>
+                            <option value="masculino" class="text-white">MASCULINO</option>
+                            <option value="femenino" class="text-white">FEMENINO</option>
+                            <option value="otros" class="text-white">OTROS</option>
                         </select>
-                        <label for="gender">NIVEL</label>
-
-                    </div>
                 </div>
-
-                <div class="row">
-                    <div class="col-xs-12 ct-u-marginBottom30">
-                        <div class="form-group">
-                            <textarea class="form-control" id="textarea" rows="7" required name="field[]" placeholder="Message"></textarea>
-                            <label for="textarea">Message</label>
-                        </div>
-                    </div>
-
-                    <div class="col-xs-12">
+                <div class=" ct-u-marginBottom30">
+                <select class="form-control"  name="Nivel" required >
+                            <option value=""   disabled selected class="text-white">Selecciona tu NIVEL</option>
+                            <option value="BASICO" class="text-white">BASICO</option>
+                            <option value="INTERMEDIO">INTERMEDIO</option>
+                            <option value="INSTRUCTOR" class="text-white">INSTRUCTOR</option>
+                        </select>
+                </div>
+            </div>
+        </div>
+    
+        <div class="row">
+            <div class="col-xs-12 ct-u-marginBottom30">
+                <div class="form-group">
+                    <textarea class="form-control" name="mensaje" id="textarea" rows="7" required placeholder="MENSAJE"></textarea>
+                    <label for="textarea">MENSAJE</label>
+                </div>
+            </div>
+            <div class="col-xs-12">
                         <div class="form-group">
                             <div class="row">
                                 <div class="col-sm-offset-4 col-sm-4">
@@ -131,8 +122,33 @@ service
                             </div>
                         </div>
                     </div>
-                </div>
-            </form>
+        </div>
+    </form>
+
+    <script>
+    function validateAndFormatDate() {
+        var fechaInput = document.getElementsByName('fechaNac')[0].value;
+        var dateFormats = ['DD-MM-YYYY', 'DD/MM/YYYY', 'MM-DD-YYYY', 'MM/DD/YYYY', 'YYYY-MM-DD'];
+        var validDate = null;
+
+        for (var i = 0; i < dateFormats.length; i++) {
+            var date = moment(fechaInput, dateFormats[i], true);
+            if (date.isValid()) {
+                validDate = date.format('YYYY-MM-DD');
+                break;
+            }
+        }
+
+        if (validDate) {
+            document.getElementsByName('fechaNac')[0].value = validDate;
+            return true;
+        } else {
+            alert('Formato de fecha no válido. Por favor, use DD-MM-AAAA o formatos similares.');
+            return false;
+        }
+    }
+    </script>
+        </div>
         </div>
     </div>
 </section>
