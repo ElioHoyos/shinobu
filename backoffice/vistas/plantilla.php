@@ -154,7 +154,7 @@ if(isset($_GET["pagina"])){
 		$_GET["pagina"] == "usuarios" ||
 		$_GET["pagina"] == "noticias" ||
 		$_GET["pagina"] == "galerias" ||
-		$_GET["pagina"] == "matriz" ||
+		$_GET["pagina"] == "slide" ||
 		$_GET["pagina"] == "intructores" ||
 		$_GET["pagina"] == "ingresos-uninivel" ||
 		$_GET["pagina"] == "ingresos-binaria" ||
@@ -194,6 +194,7 @@ include "paginas/modulos/footer.php";
 <script src="vistas/js/usuarios.js"></script>
 <script src="vistas/js/gestorSlide.js"></script>
 <script src="vistas/js/gestorArticulos.js"></script>
+<script src="vistas/js/instructores.js"></script>
 <script src="vistas/js/gestorGaleria.js"></script>
 <script src="vistas/layout/js/script.js"></script>
 <script src="vistas/layout/js/jquery-2.2.0.min.js"></script>

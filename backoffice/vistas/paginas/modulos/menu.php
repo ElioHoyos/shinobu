@@ -118,7 +118,7 @@
               </a>
             </li>
             <li class="nav-item">
-              <a href="matriz" class="nav-link">
+              <a href="slide" class="nav-link">
                 <i class="far fa-circle nav-icon"></i>
                 <p>Slider</p>
               </a>

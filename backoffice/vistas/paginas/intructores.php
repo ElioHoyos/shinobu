@@ -1,57 +1,85 @@
 <div class="content-wrapper" style="min-height: 1058.31px;">
-  
-  <!-- Content Header (Page header) -->
-  <section class="content-header">
-    
-    <div class="container-fluid">
-      <div class="row mb-2">
-        <div class="col-sm-6">
-          <h1>Academia</h1>
-        </div>
-        <div class="col-sm-6">
-          <ol class="breadcrumb float-sm-right">
-            <li class="breadcrumb-item"><a href="inicio">Inicio</a></li>
-            <li class="breadcrumb-item active">Academia</li>
-          </ol>
-        </div>
-      </div>
-    </div><!-- /.container-fluid -->
 
-  </section>
+	<!-- GALERIA -->
+	<section class="content-header">
 
-  <!-- Main content -->
-  <section class="content">
+		<div class="container-fluid">
+			<div class="row mb-2">
+				<div class="col-sm-6">
+					<h1>Publicar Instructor</h1>
+				</div>
+				<div class="col-sm-6">
+					<ol class="breadcrumb float-sm-right">
+						<li class="breadcrumb-item"><a href="inicio">Inicio</a></li>
+						<li class="breadcrumb-item active">Instructor</li>
+					</ol>
+				</div>
+			</div>
+		</div><!-- /.container-fluid -->
 
-    <!-- Default box -->
-    <div class="card">
-      
-      <div class="card-header">
+	</section>
 
-        <h3 class="card-title">Title</h3>
+	<!--=====================================
+ARTÍCULOS ADMINISTRABLE 1         
+======================================-->
 
-        <div class="card-tools">
-          <button type="button" class="btn btn-tool" data-widget="collapse" data-toggle="tooltip" title="Collapse">
-          <i class="fas fa-minus"></i></button>
-          <button type="button" class="btn btn-tool" data-widget="remove" data-toggle="tooltip" title="Remove">
-          <i class="fas fa-times"></i></button>
-        </div>
+	<div id="seccionArticulos" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 
-      </div>
+		<button id="btnAgregarArticulo" class="btn btn-info btn-lg">Registrar Instructor a la Página Shinobu</button>
 
-      <div class="card-body">
-        Start creating your amazing application!
-      </div>
-      <!-- /.card-body -->
+		<!--==== AGREGAR ARTÍCULO  ====-->
 
-      <div class="card-footer">
-        Footer
-      </div>
-        <!-- /.card-footer-->
+		<div id="agregarArtículo" style="display:none">
 
-    </div>
-    <!-- /.card -->
+			<form method="post" enctype="multipart/form-data">
 
-  </section>
-  <!-- /.content -->
+				<input name="tituloArticulo" type="text" placeholder="Escribe el Nombre del Instructor" class="form-control"
+					required>
 
-</div>
+				<input type="file" name="imagen" class="btn btn-default" id="subirFoto" required>
+
+				<p>Tamaño recomendado: 800px * 400px, peso máximo 2MB</p>
+
+				<div id="arrastreImagenArticulo">
+
+				</div>
+
+				<textarea name="contenidoArticulo" id="" cols="30" rows="10" placeholder="Escribe que enseña el instructor"
+					class="form-control" required></textarea>
+
+				<input type="submit" id="guardarArticulo" value="Guardar Artículo" class="btn btn-primary">
+
+			</form>
+
+		</div>
+
+
+
+		<?php
+
+		$crearArticulo = new GestorInstructor();
+		$crearArticulo->guardarArticuloController();
+
+		?>
+
+		<hr>
+
+
+		<!--==== EDITAR ARTÍCULO  ====-->
+
+		<!-- <ul id="editarArticulo">
+
+	<?php
+
+	$mostrarArticulo = new GestorArticulos();
+	$mostrarArticulo->mostrarArticulosController();
+	$mostrarArticulo->borrarArticuloController();
+	$mostrarArticulo->editarArticuloController();
+
+	?>
+	</ul> -->
+
+	</div>
+
+
+	<!--====  Fin de ARTÍCULOS ADMINISTRABLE  ====-->

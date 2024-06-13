@@ -22,7 +22,7 @@
   <!-- Main content -->
   <section class="content">
 
-  <div id="galeria" class="col-lg-10 col-md-10 col-sm-9 col-xs-12">
+  <div id="galeria" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 
       <hr>
 
