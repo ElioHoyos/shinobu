@@ -4,7 +4,7 @@ class ControladorRuta{
 
 	static public function ctrRuta(){
 
-		return "http://localhost/shinobo1/";
+		return "http://localhost/shinobu/";
 
 	}
 

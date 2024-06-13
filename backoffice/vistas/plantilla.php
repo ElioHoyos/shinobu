@@ -87,7 +87,8 @@ $usuario = ControladorUsuarios::ctrMostrarUsuarios($item, $valor);
 
 	<!-- jQuery library -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
+	<!-- DataTables CSS -->
+	<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.css">
 	<!-- Popper JS -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
 
@@ -200,6 +201,9 @@ include "paginas/modulos/footer.php";
 <script src="vistas/layout/js/jquery-2.2.0.min.js"></script>
 <script src="vistas/layout/js/bootstrap.min.js"></script>
 <script src="vistas/layout/js/jquery.fancybox.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.js"></script>
+
 
 </body>
 
