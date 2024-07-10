@@ -10,16 +10,22 @@ class ModeloUsuarios{
 
 	static public function mdlRegistroUsuario($tabla, $datos){
 
-		$stmt = Conexion::conectar()->prepare("INSERT INTO $tabla(perfil, nombre, email, password, suscripcion, verificacion, email_encriptado, patrocinador) VALUES (:perfil, :nombre, :email, :password, :suscripcion, :verificacion, :email_encriptado, :patrocinador)");
+		$stmt = Conexion::conectar()->prepare("INSERT INTO $tabla(perfil, nombre, email, password, dni,sexo,suscripcion, verificacion, email_encriptado, patrocinador,edad,telefono_movil,fechaNac,foto) VALUES (:perfil, :nombre, :email, :password, :dni, :sexo, :suscripcion, :verificacion, :email_encriptado, :patrocinador, :edad, :telefono_movil, :fechaNac, :foto)");
 
 		$stmt->bindParam(":perfil", $datos["perfil"], PDO::PARAM_STR);
 		$stmt->bindParam(":nombre", $datos["nombre"], PDO::PARAM_STR);
 		$stmt->bindParam(":email", $datos["email"], PDO::PARAM_STR);
 		$stmt->bindParam(":password", $datos["password"], PDO::PARAM_STR);
+		$stmt->bindParam(":dni", $datos["dni"], PDO::PARAM_STR);
+		$stmt->bindParam(":sexo", $datos["sexo"], PDO::PARAM_STR);
 		$stmt->bindParam(":suscripcion", $datos["perfil"], PDO::PARAM_STR);
 		$stmt->bindParam(":verificacion", $datos["verificacion"], PDO::PARAM_STR);
 		$stmt->bindParam(":email_encriptado", $datos["email_encriptado"], PDO::PARAM_STR);
 		$stmt->bindParam(":patrocinador", $datos["patrocinador"], PDO::PARAM_STR);
+		$stmt->bindParam(":edad", $datos["edad"], PDO::PARAM_INT);
+		$stmt->bindParam(":telefono_movil", $datos["telefono_movil"], PDO::PARAM_STR);
+        $stmt->bindParam(":fechaNac", $datos["fechaNac"], PDO::PARAM_STR);
+		$stmt->bindParam(":foto", $datos["foto"], PDO::PARAM_STR);
 
 		if($stmt->execute()){
 

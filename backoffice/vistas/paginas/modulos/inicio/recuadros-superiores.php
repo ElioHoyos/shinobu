@@ -53,16 +53,57 @@
 		<!-- small box -->
 		<div class="small-box bg-dark">
 			<div class="inner">
-				<h3>Usuarios</h3>
-
-				<p>Renovación 2019-07-31</p>
+			<h3>2</h3>
+				<p>Usuarios</p>
 			</div>
 			<div class="icon">
 				<i class="fas fa-user-plus"></i>
 			</div>
-			<a href="perfil" class="small-box-footer">Cancelar suscripción <i class="fas fa-arrow-circle-right"></i></a>
+			<a href="perfil" class="small-box-footer">Más Info <i class="fas fa-arrow-circle-right"></i></a>
 		</div>
 	</div>
 	<!-- ./col -->
+	<div class="col-12 col-sm-6 col-lg-3">
+    <!-- small box -->
+    <div class="small-box bg-yellow text-white">
+        <div class="inner">
+            <h3 style="color: white;">5</h3>
+            <p style="color: white;">Cumpleaños</p>
+        </div>
+        <div class="icon">
+            <i class="fas fa-birthday-cake"></i>
+        </div>
+        <a href="perfil" class="small-box-footer text-white">Más Info <i class="fas fa-arrow-circle-right"></i></a>
+    </div>
+</div>
+
+	<!-- ./col -->
+	<div class="col-12 col-sm-6 col-lg-3">
+		<!-- small box -->
+		<div class="small-box bg-green">
+			<div class="inner">
+			<h3>5</h3>
+			<p>Pago Activo</p>
+			</div>
+			<div class="icon">
+				<i class="fas fa-money-bill-wave"></i>
+			</div>
+			<a href="perfil" class="small-box-footer">Más Info<i class="fas fa-arrow-circle-right"></i></a>
+		</div>
+	</div>
+	<!-- ./col -->
+	<div class="col-12 col-sm-6 col-lg-3">
+		<!-- small box -->
+		<div class="small-box bg-red">
+			<div class="inner">
+			<h3>5</h3>
+			<p>DEUDAS</p>
+			</div>
+			<div class="icon">
+				<i class="fas fa-times-circle"></i>
+			</div>
+			<a href="perfil" class="small-box-footer">Más Info<i class="fas fa-arrow-circle-right"></i></a>
+		</div>
+	</div>
 
 </div>

@@ -47,7 +47,7 @@
           </a>
         </li>
 
-        <?php if ($usuario["perfil"] == "admin"): ?>
+       
 
           <li class="nav-item">
             <a href="usuarios" class="nav-link">
@@ -56,45 +56,11 @@
             </a>
           </li>
 
-        <?php endif ?>
+     
 
 
 
-        <!-- <li class="nav-item has-treeview">
-          <a href="#" class="nav-link">
-            <i class="nav-icon fas fa-graduation-cap"></i>
-            <p>
-            Academia
-              <i class="right fas fa-angle-left"></i>
-            </p>
-          </a>
-          <ul class="nav nav-treeview">
-            <li class="nav-item">
-              <a href="cuerpo-activo" class="nav-link">
-                <i class="far fa-circle nav-icon"></i>
-                <p>Noticias</p>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a href="mente-sana" class="nav-link">
-                <i class="far fa-circle nav-icon"></i>
-                <p>Galeria</p>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a href="espiritu-libre" class="nav-link">
-                <i class="far fa-circle nav-icon"></i>
-                <p>Videos</p>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a href="espiritu-libre" class="nav-link">
-                <i class="far fa-circle nav-icon"></i>
-                <p>Preguntas Fuentes</p>
-              </a>
-            </li>
-          </ul>
-        </li> -->
+     
 
         <li class="nav-item has-treeview">
           <a href="#" class="nav-link">
@@ -131,43 +97,6 @@
             </li>
           </ul>
         </li>
-
-        <!-- <li class="nav-item has-treeview">
-          <a href="#" class="nav-link">
-            <i class="nav-icon fas fa-money-check-alt"></i>
-            <p>
-            Ingresos
-              <i class="right fas fa-angle-left"></i>
-            </p>
-          </a>
-          <ul class="nav nav-treeview">
-            <li class="nav-item">
-              <a href="ingresos-uninivel" class="nav-link">
-                <i class="far fa-circle nav-icon"></i>
-                <p>Ingresos uninivel</p>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a href="ingresos-binaria" class="nav-link">
-                <i class="far fa-circle nav-icon"></i>
-                <p>Ingresos binaria</p>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a href="ingresos-matriz" class="nav-link">
-                <i class="far fa-circle nav-icon"></i>
-                <p>Ingresos matriz 4x4</p>
-              </a>
-            </li>
-          </ul>
-        </li> -->
-
-        <!-- <li class="nav-item">
-          <a href="plan-compensacion" class="nav-link">
-            <i class="nav-icon fas fa-gem"></i>
-            <p>Plan de compensación</p>
-          </a>
-        </li> -->
 
         <li class="nav-item">
           <a href="soporte" class="nav-link">
